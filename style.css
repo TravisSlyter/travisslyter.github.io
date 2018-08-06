@@ -1,0 +1,36 @@
+
+body,
+  html {
+  	width: 100%;
+  	height: 100%;
+  }
+
+/*all 4 properties must be present for image to appear*/
+  .startup {
+    background-position: center;
+  	background-image: url("iceland.jpg");
+  	background-size: cover;
+  	height: 100%;
+  }
+
+.callout {
+	color: rgba(180, 180, 180, .9);
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px black;
+}
+/* original code to center div could not figure out */
+.btn {
+  background-color: green;
+  border: none;
+  color: rgba(180, 180, 180, .9);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.btn:hover {
+  background-color: green;
+  opacity: .8;
+}
+
